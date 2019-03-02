@@ -3,15 +3,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-    <input id="inputText" placeholder="Введите ваш поисковой запрос"></input>
-    <button id="searchFor" type="button" onClick="textTransform()">Search</button> <br>
-    <input type="checkbox" id="rus"> <br>
+<div id="container">
+    <div class="image"><p><a href="https://ru.wikipedia.org">
+    <img width=350 height=320 src="http://3.bp.blogspot.com/-UPNPK1Bo0pY/VT6cn-E-sTI/AAAAAAAAAWk/ohw7_Jnkcfk/s1600/Wikipedia-Logo-1024x934.png">
+    </a></p></div>
+    <form class="form">
+    <div class="search">
+    <input class="inputClass" id="inputText" placeholder="Введите ваш поисковой запрос"></input>
+    <button class="button" id="searchFor" type="button" onClick="textTransform()">Search</button> <br>
+    </div>
+    <div class="checkbox">
+    <!-- <input type="checkbox" id="rus"> <br>
     <input type="checkbox" id="eng"> <br>
-    <input type="checkbox" id="ger">
+    <input type="checkbox" id="ger"> -->
+    </div>
     </form>
+</div>
     <script type="text/javascript" src="app.js"></script>
 </body> 
 </html>
